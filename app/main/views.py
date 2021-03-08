@@ -33,6 +33,7 @@ def mail():
     return render_template('contact.html',update_form = form)
 
 @main.route('/new/blog', methods = ['GET','POST'])
+@login_required
 def new_blog():
 
     form = BlogForm()
@@ -59,6 +60,7 @@ def blogs():
     return render_template('blog.html',blogs = blogs)
 
 @main.route('/blog/comments/<int:blogs_id>', methods = ['GET','POST'])
+@login_required
 def comment(blogs_id):
     form = CommentForm()
     blogs = Blog.query.get(blogs_id)

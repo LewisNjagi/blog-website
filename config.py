@@ -3,7 +3,7 @@ class Config:
     '''
     General configuration parent class
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://qyunky:Lewis860@localhost/blog'
+    # SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://qyunky:Lewis860@localhost/blog'
     SECRET_KEY = os.environ.get('SECRET_KEY')
     QUOTES_API_BASE_URL = ' http://quotes.stormconsultancy.co.uk/popular.json'
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -20,7 +20,7 @@ class prodConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    pass
+    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class DevConfig(Config):
     '''

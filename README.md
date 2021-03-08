@@ -1,19 +1,20 @@
-# BLOG APP
-#### Pitches is an application that allows users to use that one minute wisely., 4th March 2021
+# BLOG WEBSITE
+#### Pitches is a website where users can create and share your opinions and other users can read and comment on them , 9th March 2021.
 ## Author
 #### By **Lewis Njagi**
 ## Features
 As a user of the website you will be able to:
-1. See the pitches other people have posted.on.
-2. Vote on the pitch they liked and give it a downvote or upvote.
-3. Receive a welcoming email once I sign up.
-4. View the pitches I have created in my profile page.
-5. Comment on the different pitches and leave feedback.
-6. Submit and view a pitch in any category.
+1. View the blog posts on the site
+2. Comment on blog posts
+3. View the most recent posts
+4. Recieve an email alert when a new post is made by joining a subscription.
+5. See random quotes on the site
+6. Create a blog from the application.
+7. Sign in to the blog.
 ## Developement Requirements
 1. Clone the Repo
       ```bash
-        https://github.com/LewisNjagi/python-week3.git
+        https://github.com/LewisNjagi/blog-website.git
       ```
 2. Move to the folder and install requirements
       ```bash
@@ -30,7 +31,8 @@ As a user of the website you will be able to:
 | Load the page | **On page load** | 
 | Select SignUp| **Email**,**Username**,**Password** | 
 | Select Login | **Username** and **password** |
-| Select comment button | **Comment** | 
+| Select blog button | **Blog** | 
+| Select comment button | **Comment** |
 | Click on submit |  
 ## Live Link
 https://wen-news-app.herokuapp.com/
