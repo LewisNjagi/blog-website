@@ -1,0 +1,3 @@
+Hello {{sub.username}}
+Thank you for subscrbing to our email list.
+We have just seen you have signed up for our application and want to welcome you to the family. Please enjoy weekly updates on our blog through your email.
