@@ -1,0 +1,19 @@
+.bi {
+    margin-left: 15px !important;
+}
+.navbar {
+    margin-top: 10px;
+    border-bottom: solid rgba(182, 176, 176, 0.74) 1px;
+}
+.nav-link {
+    font-size: 13px;
+}
+.navbar-nav {
+    margin-left: 160px;
+}
+.icon {
+    margin-left: 60px;
+}
+btn:hover {
+    border-color: black;
+}
