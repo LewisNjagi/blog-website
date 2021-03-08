@@ -1,0 +1,5 @@
+Hi There, {{user.username}}
+I've been gone from writing this post for a few weeks, but now it's that time again, I hope you are all doing great! Now here is what I've been working on as of late.
+
+{{new_blog.title}}
+{{new_blog.blog}}
