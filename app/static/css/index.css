@@ -1,0 +1,39 @@
+.img-grid {
+  margin-left: 30px;
+}
+.pass {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.passport {
+  width: 100%;
+  height: auto;
+}
+.btn2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0 !important;
+  background: none !important;
+  color: black !important;
+  border: solid 2px !important;
+  font-family: 'B612', sans-serif;
+  margin-top: 20px;
+}
+.button {
+  text-align: center;
+}
+.latest:hover {
+  border-bottom: solid rgba(182, 176, 176, 0.74) 1px;
+}
+.ico {
+  margin-left: 1000px !important;
+  margin-top: -360px;
+}
