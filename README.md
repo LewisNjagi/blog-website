@@ -35,7 +35,7 @@ As a user of the website you will be able to:
 | Select comment button | **Comment** |
 | Click on submit |  
 ## Live Link
-https://wen-news-app.herokuapp.com/
+https://blog-app-webisite.herokuapp.com/
 ## Known Bugs
 No known Bugs
 ## Technologies Used 
