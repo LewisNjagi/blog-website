@@ -1,5 +1,5 @@
 # BLOG WEBSITE
-#### Pitches is a website where users can create and share your opinions and other users can read and comment on them , 9th March 2021.
+#### Personal blogging website where you can create and share your opinions and other users can read and comment on them, 9th March 2021.
 ## Author
 #### By **Lewis Njagi**
 ## Features
